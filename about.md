@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: 关于我
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+欢迎光临本小站！我是一个爱疯程序猿，生理时区常年处于东四区，四目整天处于无神状态。热爱新鲜事物，富有钻研精神，同时又时常出现懒惰状态。这是我的博客。我住在天朝的孙中山故乡。
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+本站域名是 [blog.waaile.com](blog.waaile.com) ，`blog`是 [blog.waaile.com](blog.waaile.com) 的`blog`，`waaile`是 [blog.waaile.com](blog.waaile.com) 的`waaile`，`com`是 [blog.waaile.com](blog.waaile.com) 的`com`。
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+晚安！
