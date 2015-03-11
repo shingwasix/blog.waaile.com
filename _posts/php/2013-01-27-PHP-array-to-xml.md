@@ -119,11 +119,11 @@ echo xml_encode((object)$test,"hash");
 
 测试结果，以下时chrome浏览器查看到的内容，xml解析成功并显示正常。
 
-![php-array-to-xml-1](/assets/*nix/php-array-to-xml-1.jpg)
+![php-array-to-xml-1](/assets/php/php-array-to-xml-1.jpg)
 
 我们再看一下页面源码
 
-![php-array-to-xml-2](/assets/*nix/php-array-to-xml-2.jpg)
+![php-array-to-xml-2](/assets/php/php-array-to-xml-2.jpg)
 
 在这里，我意外地发现了中文内容输出的并非中文，而是一些html转义符。这时候我想起了html转义符是会将特殊符号（包括`<`和`>`）转换为不与html标签冲突的字符。于是我改用了php内置的html文本转义函数
 
@@ -134,7 +134,7 @@ htmlspecialchars($xml);
 
 使用了一下，效果还不错，以下是chrome浏览器解析后显示的内容
 
-![php-array-to-xml-3](/assets/*nix/php-array-to-xml-3.jpg)
+![php-array-to-xml-3](/assets/php/php-array-to-xml-3.jpg)
 
 不但解析正常，还在在浏览器上直接看到原始数据的`<`和`>`，以下附上最终修改完整的代码：
 
