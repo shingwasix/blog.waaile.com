@@ -1,6 +1,6 @@
 ---
 layout: post
-title: php array/object转xml
+title: PHP Array/Object转XML
 date: 2013-01-27 07:14:47 +08:00
 categories:
 - php
@@ -12,13 +12,13 @@ tags:
 
 在网站与网站或者移动客户端交互时，我们通常会使用json格式的数组来进行交互。
 
-php 5.0之后的版本可以使用 json_encode和json_decode 来轻松地将array或object进行json编码以及反编码。
+PHP 5.0之后的版本可以使用 json_encode和json_decode 来轻松地将Array或Object进行JSON编码以及反编码。
 
-但某些平台(系统)可能由于历史的原因或是技术的原因，只能支持xml的解析，而正巧php并没有内置将array或object进行xml编码或反编码的函数。
+但某些平台(系统)可能由于历史的原因或是技术的原因，只能支持xml的解析，而正巧PHP并没有内置将Array或Object进行XML编码或反编码的函数。
 
-在google上搜索很多关于php array转xml的文章，均未能完美解决我的问题。
+在GOOGLE上搜索很多关于PHP Array转XML的文章，均未能完美解决我的问题。
 
-网上的array转xml代码基本都存在以下几个问题
+网上的Array转XML代码基本都存在以下几个问题
 
 + 1.无法解决内容中存在`<`或`>`符号而导致的转换错误
 
@@ -74,9 +74,9 @@ $xml = str_replace("<", "%3C", $xml);
 $xml = str_replace(">", "%3E", $xml);
 {% endhighlight %}
 
-在xml解析前的时候，只需要将`%3C`和`%3E`还原一下即可。
+在XML解析前的时候，只需要将`%3C`和`%3E`还原一下即可。
 
-这时候问题又来了，如果原本内容中存在`%3C`或者`%3E`的话，会被客户端误会了的，所以我们还需要将`%`号先转换为url编码`%25`。
+这时候问题又来了，如果原本内容中存在`%3C`或者`%3E`的话，会被客户端误会了的，所以我们还需要将`%`号先转换为URL编码`%25`。
 
 代码如下，先后顺序不能调转
 
@@ -87,7 +87,7 @@ $xml = str_replace("<;", "%3C", $xml);
 $xml = str_replace(">;", "%3E", $xml);
 {% endhighlight %}
 
-再来看问题2，键值为数字时会解析错误，这是因为xml的键值不允许以数字为看头，我们只需在输出的时候，修改一下数字键值名则可。
+再来看问题2，键值为数字时会解析错误，这是因为XML的键值不允许以数字为看头，我们只需在输出的时候，修改一下数字键值名则可。
 
 思来想去，最后得出在数字前加一个下划线`_`作为键值最合适不过了。
 
@@ -117,7 +117,7 @@ $test[3]=array(
 echo xml_encode((object)$test,"hash");
 {% endhighlight %}
 
-测试结果，以下时chrome浏览器查看到的内容，xml解析成功并显示正常。
+测试结果，以下时chrome浏览器查看到的内容，XML解析成功并显示正常。
 
 ![php-array-to-xml-1](/assets/php/php-array-to-xml-1.jpg)
 
