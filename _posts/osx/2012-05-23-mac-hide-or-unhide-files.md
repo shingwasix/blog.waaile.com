@@ -12,26 +12,26 @@ tags:
 打开Terminal(终端),输入以下命令
 
 开启显示隐藏文件:
-``` sh
+{% highlight sh %}
 defaults write com.apple.finder AppleShowAllFiles -bool true
-```
+{% endhighlight %}
 
 禁止显示隐藏文件:
-``` sh
+{% highlight sh %}
 defaults write com.apple.finder AppleShowAllFiles -bool false
-```
+{% endhighlight %}
 
 或者使用以下命令
 
 开启显示隐藏文件:
-``` sh
+{% highlight sh %}
 defaults write com.apple.finder AppleShowAllFiles YES
-```
+{% endhighlight %}
 
 禁止显示隐藏文件:
-``` sh
+{% highlight sh %}
 defaults write com.apple.finder AppleShowAllFiles NO
-```
+{% endhighlight %}
 
 执行完上述命令后,还需要重启Finder
 
