@@ -12,29 +12,28 @@ tags:
 打开Terminal(终端),输入以下命令
 
 开启显示隐藏文件:
-{% highlight shell %}
-defaults write com.apple.finder AppleShowAllFiles -bool 
-true
-{% endhighlight %}
+``` sh
+defaults write com.apple.finder AppleShowAllFiles -bool true
+```
 
 禁止显示隐藏文件:
-{% highlight shell %}
+``` sh
 defaults write com.apple.finder AppleShowAllFiles -bool false
-{% endhighlight %}
+```
 
 或者使用以下命令
 
 开启显示隐藏文件:
-{% highlight shell %}
+``` sh
 defaults write com.apple.finder AppleShowAllFiles YES
-{% endhighlight %}
+```
 
 禁止显示隐藏文件:
-{% highlight shell %}
+``` sh
 defaults write com.apple.finder AppleShowAllFiles NO
-{% endhighlight %}
+```
 
 执行完上述命令后,还需要重启Finder
 
-可使用命令行 killall Finder (注意:Finder必须是首字母大写)
+可使用命令行 ```killall Finder``` (注意:Finder必须是首字母大写)
 或者 点击左上角的苹果标志-->强制退出-->Finder-->重新启动
