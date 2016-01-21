@@ -8,6 +8,7 @@ tags:
 - php
 - xml_decode
 - xml_encode
+author: Shingwa Six
 ---
 
 在网站与网站或者移动客户端交互时，我们通常会使用json格式的数组来进行交互。

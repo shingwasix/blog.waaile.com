@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[转]PSP Makefile写法'
+title: '[转载]PSP Makefile写法'
 date: 2012-05-23 02:15:27.000000000 +08:00
 categories:
 - psp

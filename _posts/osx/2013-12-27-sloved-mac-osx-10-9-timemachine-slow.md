@@ -8,6 +8,7 @@ categories:
 tags:
 - mac
 - timemachine
+author: Shingwa Six
 ---
 
 上两个月升级了Mac OSX 10.9后一直没有备份过，前几天用移动硬盘备份的时候，发现备份速度极其缓慢。

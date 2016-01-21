@@ -7,6 +7,7 @@ categories:
 tags:
 - mac
 - 使用技巧
+author: Shingwa Six
 ---
 
 打开Terminal(终端),输入以下命令

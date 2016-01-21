@@ -8,6 +8,7 @@ tags:
 - iOS开发
 - xib
 - 自定义UITableViewCell
+author: Shingwa Six
 ---
 
 iOS应用开发中使用最多的控件莫过于就是UITableView了,而用于显示UITableView行的就是UITableViewCell.

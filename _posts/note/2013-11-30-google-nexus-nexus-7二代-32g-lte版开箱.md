@@ -10,8 +10,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  duoshuo_thread_id: '1281844740521721903'
 author: Shingwa Six
 ---
 

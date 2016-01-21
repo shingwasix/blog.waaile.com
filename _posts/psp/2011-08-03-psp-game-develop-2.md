@@ -8,6 +8,7 @@ tags:
 - c
 - psp
 - 游戏开发
+author: Shingwa Six
 ---
 
 上一篇写的Hello world,大家运行应该没问题吧!
