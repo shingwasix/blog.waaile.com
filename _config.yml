@@ -8,7 +8,7 @@ url: "http://blog.waaile.com" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  shingwasix
 duoshuo_short_name: shingwasix
-duoshuo_thread_key_suffix: _a
+timezone: Asia/Chongqing
 
 # Build settings
 markdown: kramdown
