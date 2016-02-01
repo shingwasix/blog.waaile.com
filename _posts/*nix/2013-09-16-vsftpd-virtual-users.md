@@ -18,7 +18,7 @@ author: Shingwa Six
 
 users.txt
 
-{% highlight shell %}
+{% highlight sh %}
 test01
 123456
 test02
