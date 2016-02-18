@@ -9,6 +9,7 @@ enforce_ssl: blog.waaile.com
 twitter_username: 
 github_username:  shingwasix
 duoshuo_short_name: shingwasix
+disqus_url: waaile-blog.disqus.com
 timezone: Asia/Chongqing
 
 # Build settings
