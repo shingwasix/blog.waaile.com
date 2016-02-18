@@ -1,0 +1,7 @@
+{
+  "name": "blog.waaile.com",
+  "private": true,
+  "dependencies": {
+    "nprogress": "^0.2.0"
+  }
+}
