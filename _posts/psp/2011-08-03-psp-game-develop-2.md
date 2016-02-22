@@ -15,7 +15,7 @@ author: Shingwa Six
 
 那么今天这篇文章让我们一起来分析一下hello world程序里每一行代码的作用到底是什么，在看这篇文章之前，请确定自己已经对c或c++有所了解和认识。否则可以先到google补充一下c基础。
 
-代码下载在第一篇文章里,如果没有看过第一篇的朋友请点这里 [《我也来做PSP游戏[1] - 编写Hello world》]({{ site.url }}/psp-game-develop-1/ "我也来做PSP游戏 - 编写Hello world(1)")
+代码下载在第一篇文章里,如果没有看过第一篇的朋友请点这里 [《我也来做PSP游戏[1] - 编写Hello world》]({{ site.url }}/psp-game-develop-1 "我也来做PSP游戏 - 编写Hello world(1)")
 
 好了,首先我们来看头文件
 
