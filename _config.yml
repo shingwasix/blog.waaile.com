@@ -15,3 +15,4 @@ timezone: Asia/Chongqing
 # Build settings
 markdown: kramdown
 permalink: /:title
+exclude: ["/bower_components/twemoji/assets"]

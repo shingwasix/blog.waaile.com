@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "nprogress": "^0.2.0",
-    "twemoji": "^1.4.2"
+    "twemoji": "^1.4.2",
+    "jquery": "^2.2.1"
   }
 }
