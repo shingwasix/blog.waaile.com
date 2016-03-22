@@ -17,7 +17,7 @@ author: Shingwa Six
 
 本人要备份的硬盘大小为70G，基本上是挂了几晚机才能进行一次完整的备份。
 
-再次进行增量备份5G东西的时候，timemachine的进度条显示备份了几M之后就死活不肯动了，挂个几小时都不动一下！
+再次进行增量备份5G东西的时候，Time Machine的进度条显示备份了几M之后就死活不肯动了，挂个几小时都不动一下！
 
 当时我就开始怀疑是不是我的硬盘里有问题文件导致无法备份，于是很无奈地整个mac硬盘格式化了，再重新安装一次系统。。。
 
@@ -25,15 +25,15 @@ author: Shingwa Six
 
 无奈的我只能慢慢等了
 
-但就在我等待的过程中，我无意点开了spotlight，然后发现他在提示正在为我移动硬盘上的其他分区生成索引。
+但就在我等待的过程中，我无意点开了Spotlight，然后发现他在提示正在为我移动硬盘上的其他分区生成索引。
 
 ![timemachine_slow_1](/assets/osx/timemachine_slow_1.jpg)
 
-然后我就怀疑是spotlight这个可恶的东西导致备份缓慢，于是我把其中非备份的分区都卸载掉了，timemachine的速度立马又上来了！
+然后我就怀疑是Spotlight这个可恶的东西导致备份缓慢，于是我把其中非备份的分区都卸载掉了，Time Machine的速度立马又上来了！
 
 ![timemachine_slow_3](/assets/osx/timemachine_slow_3.jpg)
 
-原来罪魁祸首就是spotlight，10.9下插入移动硬盘他就会自动创建索引(貌似之前10.7没有出现过这种事) ,并在分区的根目录下生成`.Spotlight-V100`这个文件夹
+原来罪魁祸首就是Spotlight，10.9下插入移动硬盘他就会自动创建索引(貌似之前10.7没有出现过这种事) ,并在分区的根目录下生成`.Spotlight-V100`这个文件夹
 
 ![timemachine_slow_4](/assets/osx/timemachine_slow_4.jpg)
 
@@ -43,7 +43,7 @@ author: Shingwa Six
 
 ![timemachine_slow_2](/assets/osx/timemachine_slow_2.jpg)
 
-要想timemachine备份的时候速度够快，除了可以在备份的时候卸载掉其他无用分区之外，还可以使用以下方法禁止某个spotlight对某个分区进行备份
+要想Time Machine备份的时候速度够快，除了可以在备份的时候卸载掉其他无用分区之外，还可以使用以下方法禁止某个Spotlight对某个分区进行备份
 
 ![timemachine_slow_5](/assets/osx/timemachine_slow_5.jpg)
 
@@ -53,4 +53,4 @@ author: Shingwa Six
 
 如果提示`Permission denied`，命令前面加上sudo执行后输入密码即可
 
-重新装载硬盘分区，spotlight就会乖不乖的不对分区做任何处理了
+重新装载硬盘分区，Spotlight就会乖乖的不对分区做任何处理了

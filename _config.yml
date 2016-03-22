@@ -11,6 +11,7 @@ github_username:  shingwasix
 duoshuo_short_name: shingwasix
 disqus_url: waaile-blog.disqus.com
 timezone: Asia/Chongqing
+google_analytics: UA-42460321-1
 
 # Build settings
 markdown: kramdown
