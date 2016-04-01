@@ -2,16 +2,16 @@
 title: Shingwa Six的程式库
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  洗洗睡.
+  洗洗睡
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://blog.waaile.com" # the base hostname & protocol for your site
-enforce_ssl: blog.waaile.com
+url: "https://shingwasix.me" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  shingwasix
 duoshuo_short_name: shingwasix
-disqus_url: waaile-blog.disqus.com
+disqus_url: shingwasix.disqus.com
 timezone: Asia/Chongqing
-google_analytics: UA-42460321-1
+google_analytics_id: UA-75816296-1
+cnzz_id: 4157597
 
 # Build settings
 markdown: kramdown

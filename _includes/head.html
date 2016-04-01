@@ -1,8 +1,12 @@
 <head>
   <script type="text/javascript">
-      var host = "{{ site.enforce_ssl }}";
-      if ((host == window.location.host) && (window.location.protocol != "https:"))
-          window.location.protocol = "https";
+	var siteUrl = "{{ site.url }}";
+	var baseUrl = window.location.protocol + "//" + window.location.host;
+	if ((baseUrl.indexOf("localhost") === -1) && 
+		!/^http(s?):\/\/(\d+\.?)+$/.test(baseUrl) &&
+		baseUrl != siteUrl) {
+		window.location.href = siteUrl + window.location.pathname;
+	}
   </script>
   
   <meta charset="utf-8">
