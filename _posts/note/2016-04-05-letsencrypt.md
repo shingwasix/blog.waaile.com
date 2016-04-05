@@ -27,7 +27,7 @@ author: Shingwa Six
 
 ![letsencrypt-02][letsencrypt-02]
 
-该机构颁发的证书不但免费，而且兼容性还非常好。根据 [https://www.ssllabs.com](https://www.ssllabs.com) 的测试结果来看， [Let's Encrypt] 颁发的证书几乎兼容所有系统和浏览器，该网站模拟握手测试结果中只有万恶的 [IE 6/XP] 没有握手成功。虽然该网站上的测试还没覆盖所有系统和浏览器，但就他列出的数十个模拟握手结果来看，[Let's Encrypt] 证书的兼容性已经算是非常优秀。
+该机构颁发的证书不但免费，而且兼容性还非常好。根据 [https://www.ssllabs.com](https://www.ssllabs.com) 的测试结果来看， [Let's Encrypt] 颁发的证书几乎兼容所有主流操作系统和浏览器，数十个模拟握手结果中只有万恶的 [IE 6/XP] 没有握手成功。
 
 ![letsencrypt-03][letsencrypt-03]
 
@@ -279,7 +279,7 @@ systemctl restart crond.service
 
 网址：[https://gethttpsforfree.com](https://gethttpsforfree.com)
 
-***⚠️[Let's Encrypt] 一直倡导开发者利用工具进行证书自动化申请和续订，所以官方本身并不提倡使用Web服务进行在线证书申请，同时也不提供在线申请服务。***
+***⚠️[Let's Encrypt] 一直倡导开发者利用工具进行证书自动化部署，所以官方本身并不提倡使用Web服务进行在线证书申请，同时也不提供在线申请服务。***
 
 ### 相关阅读
 
