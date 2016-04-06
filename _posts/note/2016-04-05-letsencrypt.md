@@ -63,7 +63,7 @@ yum install python
 pip installl virtualenv
 {% endhighlight %}
 
-在确保所需的软件已安装后，继续根据以下操作进行证书申请。[letsencrypt] 一共提供了三种方式验证域名所有权并申请证书，分别是“\-\-apache”、“\-\-standalone”、“\-\-webroot”。“\-\-apache”模式利用Apache插件进行验证，适合使用Apache Httpd作为 [Web Server] 的用户使用；“\-\-standalone”模式是通过创建一个临时HTTP服务进行域名所有权验证，对于已安装 [Web Server] 的服务器需要先停止 [Web Server] 等于申请完毕后启用，由于证书续订依然需要临时停止 [Web Server] 以验证域名所有权，而且该模式对域名记录有特定要求，故不推荐使用该模式；“\-\-webroot”模式则是通过webroot插件向特定目录下写入文件，然后通过指定的URL进行访问验证，该模式适用于任何已安装了 [Web Server] 的服务器使用，我们将使用该模式进行申请。
+在确保所需的软件已安装后，继续根据以下操作进行证书申请。[letsencrypt] 一共提供了三种方式验证域名所有权并申请证书，分别是“\-\-apache”、“\-\-standalone”、“\-\-webroot”。“\-\-apache”模式利用Apache插件进行验证，适合使用Apache Httpd作为 [Web Server] 的用户使用；“\-\-standalone”模式是通过创建一个临时HTTP服务进行域名所有权验证，对于已安装 [Web Server] 的服务器需要先停止 [Web Server] 等于申请完毕后启用，由于证书续订依然需要临时停止 [Web Server] 以验证域名所有权，故不推荐使用该模式；“\-\-webroot”模式则是通过webroot插件向特定目录下写入文件，然后通过指定的URL进行访问验证，该模式适用于任何已安装了 [Web Server] 的服务器使用，我们将使用该模式进行申请。
 
 首先，将需要申请证书的网站配置文件（位于`/etc/nginx`下的）修改为如下样式
 
