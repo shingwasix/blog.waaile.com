@@ -50,8 +50,7 @@
     "tag": "v1.4.2",
     "commit": "f249ba9edd18dde6d9085d538f58a9644a9d180c"
   },
-  "_source": "git://github.com/twitter/twemoji.git",
+  "_source": "https://github.com/twitter/twemoji.git",
   "_target": "^1.4.2",
-  "_originalSource": "twemoji",
-  "_direct": true
+  "_originalSource": "twemoji"
 }

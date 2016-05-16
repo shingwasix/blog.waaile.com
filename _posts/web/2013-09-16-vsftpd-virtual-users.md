@@ -70,4 +70,4 @@ db_load -T -t hash -f users.txt users.db
 
 [![vsftpd.jpg][1]][1]
 
-[1]: /assets/*nix/vsftpd.jpg
+[1]: /assets/web/vsftpd.jpg

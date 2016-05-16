@@ -44,7 +44,12 @@ twemoji.parse(document.body, {size: 36});
 </script>
 <script src="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
 <script type="text/javascript">
-/* NProgress.start(); */
-/* NProgress.done(); */
+NProgress.start();
+$(document).ready(function() {
+	setTimeout(function() { 
+		NProgress.done(); 
+		$(".site-header-border-top").show();
+	}, 100);
+});
 </script>
 <script id="dsq-count-scr" src="//{{ site.disqus_url }}/count.js" async></script>

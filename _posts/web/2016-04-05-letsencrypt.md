@@ -304,8 +304,8 @@ systemctl restart crond.service
 [强迫性疑虑]: http://baike.baidu.com/view/1366202.htm
 [MIT许可证]: https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89
 
-[letsencrypt-00]: /assets/note/letsencrypt-00.jpg
-[letsencrypt-01]: /assets/note/letsencrypt-01.jpg
-[letsencrypt-02]: /assets/note/letsencrypt-02.jpg
-[letsencrypt-03]: /assets/note/letsencrypt-03.jpg
-[letsencrypt-04]: /assets/note/letsencrypt-04.jpg
+[letsencrypt-00]: /assets/web/letsencrypt-00.jpg
+[letsencrypt-01]: /assets/web/letsencrypt-01.jpg
+[letsencrypt-02]: /assets/web/letsencrypt-02.jpg
+[letsencrypt-03]: /assets/web/letsencrypt-03.jpg
+[letsencrypt-04]: /assets/web/letsencrypt-04.jpg
