@@ -44,4 +44,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude: ["/bower_components/twemoji/assets"]
+exclude: 
+  - /bower_components/twemoji/assets
+  - /bower_components/**/*.md
+  - /bower_components/**/*.html
+  - /bower_components/**/*.txt
