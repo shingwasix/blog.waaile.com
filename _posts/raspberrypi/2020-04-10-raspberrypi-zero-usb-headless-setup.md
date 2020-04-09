@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 树莓派Zero USB无头启动
-date: 2020-04-09 09:21:00 +08:00
+date: 2020-04-10 01:14:12 +08:00
 categories:
 - raspberrypi
 tags: [raspberrypi]
